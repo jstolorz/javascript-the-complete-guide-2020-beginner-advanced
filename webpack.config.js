@@ -14,6 +14,7 @@ module.exports = {
         static: {
             directory: './',
         },
-    }
+    },
+    devtool: 'eval-cheap-source-map'
 }
 
