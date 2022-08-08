@@ -1,5 +1,5 @@
 const path = require('path')
-const webpack = require('webpack')
+//const CleanPlugin = require('clean-webpack-plugin')
 
 
 module.exports = {
@@ -15,6 +15,9 @@ module.exports = {
             directory: './',
         },
     },
-    devtool: 'eval-cheap-source-map'
+    devtool: 'eval-cheap-source-map',
+    // plugins: [
+    //     new CleanPlugin.CleanWebpackPlugin()
+    // ]
 }
 
